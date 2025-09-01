@@ -2,18 +2,18 @@
 - **Internet search support**: you can enable **internet search** capability in Gradio application and bot. For gradio, there is a `internet mode` option in the control panel. For discord, you need to specify `--internet` option in your prompt. For both cases, you need a Serper API Key which you can get one from [serper.dev](https://serper.dev/). By signing up, you will get free 2,500 free google searches which is pretty much sufficient for a long-term test.
 - **Bot support**: you can serve any model from the model zoo as Discord Bot. Find how to do this in the instruction section below.
 
-# 💬🚀 LLM as a Chatbot Service
+# 🚀 LLM as a Chatbot Service
 
 The purpose of this repository is to let people to use lots of open sourced instruction-following fine-tuned LLM models as a Chatbot service. Because different models behave differently, and different models require differently formmated prompts, I made a very simple library [`Ping Pong`](https://github.com/deep-diver/PingPong) for model agnostic conversation and context managements. 
 
 Also, I made [`GradioChat`](https://github.com/deep-diver/gradio-chat) UI that has a similar shape to [HuggingChat](https://huggingface.co/chat/) but entirely built in Gradio. Those two projects are fully integrated to power this project. 
 
-## Easiest way to try out ( ✅ Gradio, 🚧 Discord Bot )
+## Easiest way to try out ( ✅ Gradio, 🚧 Bot )
 
 ### Jarvislabs.ai
 
 This project has become the one of the default framework at [jarvislabs.ai](https://jarvislabs.ai/). Jarvislabs.ai is one of the cloud GPU VM provider with the cheapest GPU prices. Furthermore, all the weights of the supported popular open source LLMs are pre-downloaded. You don't need to waste of your money and time to wait until download hundreds of GBs to try out a collection of LLMs. In less than 10 minutes, you can try out any model. 
-- for further instruction how to run Gradio application, please follow the [official documentation](https://jarvislabs.ai/docs/llmchat) on the `llmchat` framework.
+
 
 ### dstack
 
