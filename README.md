@@ -59,18 +59,9 @@ Use the `gradio.dstack.yml` and `discord.dstack.yml` configurations to run the G
                     --serper-api-key "YOUR SERPER API KEY"
     ```
 
-### Discord Bot
+### Bot
 
-![](https://i.ibb.co/cJ3yDWh/2023-07-14-1-42-23.png)
 
-0. Prerequisites
-
-    Note that the code only works `Python >= 3.9` 
-
-    ```console
-    $ conda create -n llm-serve python=3.9
-    $ conda activate llm-serve
-    ```
 
 1. Install dependencies. 
     ```console
